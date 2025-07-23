@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Molengo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: #fff;
+}
+
+.presentation {
+  color: #2F3272;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 40px 20px;
+
+}
+
+.presentation h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: bold ;
+  
+  
+  
+  
+}
+
+.presentation p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  font-weight: bold;
+    line-height: 1.6;
+}
+
+.presentation a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.presentation a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .presentation {
+    padding: 30px 15px;
+  }
+
+  .presentation h2 {
+    font-size: 34px;
+  }
+
+  .presentation p {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .presentation {
+    padding: 25px 15px;
+  }
+
+  .presentation h2 {
+    font-size: 30px;
+  }
+
+  .presentation p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .presentation {
+    padding: 20px 10px;
+  }
+
+  .presentation h2 {
+    font-size: 26px;
+  }
+
+  .presentation p {
+    font-size: 14px;
+  }
+}
